@@ -23,10 +23,11 @@ define('shared/components/node-driver/driver-%%DRIVERNAME%%/component', ['export
 
     // Write your component here, starting with setting 'model' to a machine with your config populated
     bootstrap: function() {
-      let config = get(this, 'globalStore').createRecord({
-        type: '%%DRIVERNAME%%Config',
-        cpuCount: 2,
-        memorySize: 2048,
+      let config = this.get('store').createRecord({
+        type             : '%%DRIVERNAME%%Config',
+        Cpus             : 2,
+        Ram              : 2048,
+        VirtualAppliance : "Rancher",
       });
 
       set(this, 'model.%%DRIVERNAME%%Config', config);
