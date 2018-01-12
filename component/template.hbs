@@ -14,7 +14,7 @@
         {{input type="text"
           class="form-control"
           placeholder="eg. https://some.domain.com/api"
-          value=model.%%DRIVERNAME%%Config.ApiURL
+          value=model.%%DRIVERNAME%%Config.apiUrl
         }}
       </div>
       <div class="col-sm-1 col-md-1 form-label">
@@ -23,7 +23,7 @@
       <div class="col-sm-1 col-md-1">
         {{input type="checkbox"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.Insecure
+          value=model.%%DRIVERNAME%%Config.apiInsecure
         }}
       </div>
     </div>
@@ -38,7 +38,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.AppKey
+          value=model.%%DRIVERNAME%%Config.appKey
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -47,7 +47,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.ApiUser
+          value=model.%%DRIVERNAME%%Config.apiUsername
         }}
       </div>
     </div>
@@ -58,7 +58,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.AppSecret
+          value=model.%%DRIVERNAME%%Config.appSecret
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -67,7 +67,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="password"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.ApiPass
+          value=model.%%DRIVERNAME%%Config.apiPassword
         }}
       </div>
     </div>
@@ -78,7 +78,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.AccessToken
+          value=model.%%DRIVERNAME%%Config.accessToken
         }}
       </div>
     </div>
@@ -89,7 +89,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.AccessTokenSecret
+          value=model.%%DRIVERNAME%%Config.accessTokenSecret
         }}
       </div>
     </div>
@@ -104,7 +104,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.VirtualDatacenter
+          value=model.%%DRIVERNAME%%Config.vdc
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -113,7 +113,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.VirtualAppliance
+          value=model.%%DRIVERNAME%%Config.vapp
         }}
       </div>
     </div>
@@ -124,7 +124,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.TemplateName
+          value=model.%%DRIVERNAME%%Config.templateName
         }}
       </div>
     </div>
@@ -136,7 +136,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.Cpus
+          value=model.%%DRIVERNAME%%Config.cpus
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -146,7 +146,7 @@
         {{input type="text"
           class="form-control"
           placeholder="eg. t2.micro"
-          value=model.%%DRIVERNAME%%Config.HardwareProfile
+          value=model.%%DRIVERNAME%%Config.hwprofile
         }}
       </div>
     </div>
@@ -158,7 +158,7 @@
         <div class="input-group">
           {{input type="text"
             class="form-control"
-            value=model.%%DRIVERNAME%%Config.Ram
+            value=model.%%DRIVERNAME%%Config.ram
           }}
           <span class="input-group-addon">MB</span>
         </div>
@@ -176,7 +176,7 @@
         {{input type="text"
           class="form-control"
           placeholder="Leave blank to use VDC default"
-          value=model.%%DRIVERNAME%%Config.NetworkName
+          value=model.%%DRIVERNAME%%Config.network
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -185,7 +185,7 @@
       <div class="col-sm-1 col-md-1">
         {{input type="checkbox"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.PublicIp
+          value=model.%%DRIVERNAME%%Config.publicIp
         }}
       </div>
     </div>
@@ -200,7 +200,7 @@
       <div class="col-sm-4 col-md-4">
         {{input type="text"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.SSHUser
+          value=model.%%DRIVERNAME%%Config.sshUser
         }}
       </div>
       <div class="col-sm-2 col-md-2 form-label">
@@ -210,7 +210,7 @@
         {{input type="text"
           class="form-control"
           placeholder="Leave empty to auto generate an SSH key"
-          value=model.%%DRIVERNAME%%Config.SSHKeyPath
+          value=model.%%DRIVERNAME%%Config.sshKey
         }}
       </div>
     </div>
@@ -223,7 +223,7 @@
           placeholder="Paste user data here"
           rows="10"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.UserData
+          value=model.%%DRIVERNAME%%Config.userData
         }}
       </div>
     </div>
