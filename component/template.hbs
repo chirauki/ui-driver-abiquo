@@ -22,8 +22,9 @@
       </div>
       <div class="col-sm-1 col-md-1">
         {{input type="checkbox"
+          name="apiInsecure"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.apiInsecure
+          checked=model.%%DRIVERNAME%%Config.apiInsecure
         }}
       </div>
     </div>
@@ -184,8 +185,9 @@
       </div>
       <div class="col-sm-1 col-md-1">
         {{input type="checkbox"
+          name="publicIp"
           class="form-control"
-          value=model.%%DRIVERNAME%%Config.publicIp
+          checked=model.%%DRIVERNAME%%Config.publicIp
         }}
       </div>
     </div>

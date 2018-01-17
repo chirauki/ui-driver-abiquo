@@ -72,7 +72,7 @@ exports["default"] = Ember.HTMLBars.template((function() {
           "column": 0
         },
         "end": {
-          "line": 241,
+          "line": 243,
           "column": 0
         }
       }
@@ -800,27 +800,27 @@ exports["default"] = Ember.HTMLBars.template((function() {
     statements: [
       ["inline","partial",["host/add-common"],[],["loc",[null,[4,4],[4,33]]],0,0],
       ["inline","input",[],["type","text","class","form-control","placeholder","eg. https://some.domain.com/api","value",["subexpr","@mut",[["get","model.abiquoConfig.apiUrl",["loc",[null,[17,16],[17,41]]],0,0,0,0]],[],[],0,0]],["loc",[null,[14,8],[18,10]]],0,0],
-      ["inline","input",[],["type","checkbox","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.apiInsecure",["loc",[null,[26,16],[26,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[24,8],[27,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.appKey",["loc",[null,[41,16],[41,41]]],0,0,0,0]],[],[],0,0]],["loc",[null,[39,8],[42,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.apiUsername",["loc",[null,[50,16],[50,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[48,8],[51,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.appSecret",["loc",[null,[61,16],[61,44]]],0,0,0,0]],[],[],0,0]],["loc",[null,[59,8],[62,10]]],0,0],
-      ["inline","input",[],["type","password","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.apiPassword",["loc",[null,[70,16],[70,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[68,8],[71,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.accessToken",["loc",[null,[81,16],[81,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[79,8],[82,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.accessTokenSecret",["loc",[null,[92,16],[92,52]]],0,0,0,0]],[],[],0,0]],["loc",[null,[90,8],[93,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.vdc",["loc",[null,[107,16],[107,38]]],0,0,0,0]],[],[],0,0]],["loc",[null,[105,8],[108,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.vapp",["loc",[null,[116,16],[116,39]]],0,0,0,0]],[],[],0,0]],["loc",[null,[114,8],[117,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.templateName",["loc",[null,[127,16],[127,47]]],0,0,0,0]],[],[],0,0]],["loc",[null,[125,8],[128,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.cpus",["loc",[null,[139,16],[139,39]]],0,0,0,0]],[],[],0,0]],["loc",[null,[137,8],[140,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","placeholder","eg. t2.micro","value",["subexpr","@mut",[["get","model.abiquoConfig.hwprofile",["loc",[null,[149,16],[149,44]]],0,0,0,0]],[],[],0,0]],["loc",[null,[146,8],[150,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.ram",["loc",[null,[161,18],[161,40]]],0,0,0,0]],[],[],0,0]],["loc",[null,[159,10],[162,12]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","placeholder","Leave blank to use VDC default","value",["subexpr","@mut",[["get","model.abiquoConfig.network",["loc",[null,[179,16],[179,42]]],0,0,0,0]],[],[],0,0]],["loc",[null,[176,8],[180,10]]],0,0],
-      ["inline","input",[],["type","checkbox","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.publicIp",["loc",[null,[188,16],[188,43]]],0,0,0,0]],[],[],0,0]],["loc",[null,[186,8],[189,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.sshUser",["loc",[null,[203,16],[203,42]]],0,0,0,0]],[],[],0,0]],["loc",[null,[201,8],[204,10]]],0,0],
-      ["inline","input",[],["type","text","class","form-control","placeholder","Leave empty to auto generate an SSH key","value",["subexpr","@mut",[["get","model.abiquoConfig.sshKey",["loc",[null,[213,16],[213,41]]],0,0,0,0]],[],[],0,0]],["loc",[null,[210,8],[214,10]]],0,0],
-      ["inline","textarea",[],["placeholder","Paste user data here","rows","10","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.userData",["loc",[null,[226,16],[226,43]]],0,0,0,0]],[],[],0,0]],["loc",[null,[222,8],[227,10]]],0,0],
-      ["inline","partial",["host/add-options"],[],["loc",[null,[232,4],[232,34]]],0,0],
-      ["inline","top-errors",[],["errors",["subexpr","@mut",[["get","errors",["loc",[null,[236,22],[236,28]]],0,0,0,0]],[],[],0,0]],["loc",[null,[236,2],[236,30]]],0,0],
-      ["inline","save-cancel",[],["save","save","cancel","cancel"],["loc",[null,[239,2],[239,45]]],0,0]
+      ["inline","input",[],["type","checkbox","name","apiInsecure","class","form-control","checked",["subexpr","@mut",[["get","model.abiquoConfig.apiInsecure",["loc",[null,[27,18],[27,48]]],0,0,0,0]],[],[],0,0]],["loc",[null,[24,8],[28,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.appKey",["loc",[null,[42,16],[42,41]]],0,0,0,0]],[],[],0,0]],["loc",[null,[40,8],[43,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.apiUsername",["loc",[null,[51,16],[51,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[49,8],[52,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.appSecret",["loc",[null,[62,16],[62,44]]],0,0,0,0]],[],[],0,0]],["loc",[null,[60,8],[63,10]]],0,0],
+      ["inline","input",[],["type","password","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.apiPassword",["loc",[null,[71,16],[71,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[69,8],[72,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.accessToken",["loc",[null,[82,16],[82,46]]],0,0,0,0]],[],[],0,0]],["loc",[null,[80,8],[83,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.accessTokenSecret",["loc",[null,[93,16],[93,52]]],0,0,0,0]],[],[],0,0]],["loc",[null,[91,8],[94,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.vdc",["loc",[null,[108,16],[108,38]]],0,0,0,0]],[],[],0,0]],["loc",[null,[106,8],[109,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.vapp",["loc",[null,[117,16],[117,39]]],0,0,0,0]],[],[],0,0]],["loc",[null,[115,8],[118,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.templateName",["loc",[null,[128,16],[128,47]]],0,0,0,0]],[],[],0,0]],["loc",[null,[126,8],[129,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.cpus",["loc",[null,[140,16],[140,39]]],0,0,0,0]],[],[],0,0]],["loc",[null,[138,8],[141,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","placeholder","eg. t2.micro","value",["subexpr","@mut",[["get","model.abiquoConfig.hwprofile",["loc",[null,[150,16],[150,44]]],0,0,0,0]],[],[],0,0]],["loc",[null,[147,8],[151,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.ram",["loc",[null,[162,18],[162,40]]],0,0,0,0]],[],[],0,0]],["loc",[null,[160,10],[163,12]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","placeholder","Leave blank to use VDC default","value",["subexpr","@mut",[["get","model.abiquoConfig.network",["loc",[null,[180,16],[180,42]]],0,0,0,0]],[],[],0,0]],["loc",[null,[177,8],[181,10]]],0,0],
+      ["inline","input",[],["type","checkbox","name","publicIp","class","form-control","checked",["subexpr","@mut",[["get","model.abiquoConfig.publicIp",["loc",[null,[190,18],[190,45]]],0,0,0,0]],[],[],0,0]],["loc",[null,[187,8],[191,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.sshUser",["loc",[null,[205,16],[205,42]]],0,0,0,0]],[],[],0,0]],["loc",[null,[203,8],[206,10]]],0,0],
+      ["inline","input",[],["type","text","class","form-control","placeholder","Leave empty to auto generate an SSH key","value",["subexpr","@mut",[["get","model.abiquoConfig.sshKey",["loc",[null,[215,16],[215,41]]],0,0,0,0]],[],[],0,0]],["loc",[null,[212,8],[216,10]]],0,0],
+      ["inline","textarea",[],["placeholder","Paste user data here","rows","10","class","form-control","value",["subexpr","@mut",[["get","model.abiquoConfig.userData",["loc",[null,[228,16],[228,43]]],0,0,0,0]],[],[],0,0]],["loc",[null,[224,8],[229,10]]],0,0],
+      ["inline","partial",["host/add-options"],[],["loc",[null,[234,4],[234,34]]],0,0],
+      ["inline","top-errors",[],["errors",["subexpr","@mut",[["get","errors",["loc",[null,[238,22],[238,28]]],0,0,0,0]],[],[],0,0]],["loc",[null,[238,2],[238,30]]],0,0],
+      ["inline","save-cancel",[],["save","save","cancel","cancel"],["loc",[null,[241,2],[241,45]]],0,0]
     ],
     locals: [],
     templates: []
